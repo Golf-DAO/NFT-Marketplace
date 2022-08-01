@@ -1,4 +1,4 @@
-import NFTT from '@golfdao/NFTT.json'
+import NFTT from '../../'@golfdao'/NFTT.json'
 import create from 'zustand'
 import { BigNumber, Contract, utils, Event } from 'ethers'
 
