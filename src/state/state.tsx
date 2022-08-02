@@ -21,7 +21,6 @@ export interface StateContext {
   setEthPrice(ethPrice: string): void
   setActivatingConnector(activatingConnector: any): void
   setTransaction(transaction: any): void
-  //
   buyToken(id: string, price: BigNumber): void
   setUser(address?: string): void
   updateTokensOnSale(): Promise<boolean>
