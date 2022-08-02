@@ -14,16 +14,16 @@ const Header = () => {
   const { user, isAuthenticated } = useAppState()
 
   return (
-    <Box bg="black">
+    <Box bg="white">
       <Flex sx={{ alignItems: 'center', p: 3 }} as="nav">
         <Image
           onClick={() => {
             history.push('/')
           }}
           sx={{ width: 50, cursor: 'pointer' }}
-          src="/static/logo.png"
+          src="/static/logo.svg"
         />
-        <Heading sx={{ ml: [1, 2], color: 'white' }} as="h4">
+        <Heading sx={{ ml: [1, 2], color: 'font' }} as="h4">
           GolfDAO NFT Clubhouse{' '}
           <Text sx={{ display: ['none', 'block'] }}>+ OpenSea.io on Polygon Mainnet</Text>
         </Heading>

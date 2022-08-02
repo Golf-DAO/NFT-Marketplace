@@ -18,14 +18,14 @@ const defaultButton = {
 } as SxProp
 
 export const Palette = {
-  text: '#FFF',
+  text: '#a1c245',
   white: '#fff',
-  background: '#333',
+  background: '#fff',
   primary: '#111',
   secondary: '#333',
   gray: '#F7F9FA',
   lightGray: '#e0e0e0',
-  midGray: '#222',
+  midGray: '#176433',
   lightBlue: '#EFF7FF',
   navy: '#e0e0e0',
   green: 'rgb(99, 255, 203)',
