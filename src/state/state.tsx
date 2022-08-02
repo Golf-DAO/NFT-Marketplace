@@ -27,7 +27,7 @@ export interface StateContext {
   setTokenSale(id: string, price: BigNumber, onSale: boolean): Promise<boolean>
   transferToken(id: string, to: string): void
   getUserTokens(address?: string): Promise<TokenProps[]>
-},
+}
 
 const useAppState = create<StateContext>((set, get) => ({
   isAuthenticated: false,
